@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/js/echarts.js">
+    <link rel="stylesheet" href="js/echarts1.js">
+</head>
+<body>
+      <div class="navbar navbar-default">
+          <div class="container">
+              <div class="navbar-header">
+                  <a href="#" class="navbar-brand">码教授</a>
+              </div>
+              <div class="navbar-collapse">
+                  <ul class="nav navbar-nav">
+                      <li>
+                          <a href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>后台首页</a>
+                      </li>
+                      <li>
+                          <a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>用户大全</a>
+                      </li>
+                      <li>
+                          <a href="#"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>内容管理</a>
+                      </li>
+                      <li>
+                          <a href="#"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span>标签管理</a>
+                      </li>
+                  </ul>
+                  <ul class=" nav navbar-nav navbar-link navbar-text navbar-right">
+                      <li>
+                          <div class="dropdown ">
+                      <span class=" dropdown-toggle" type="" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                          admin
+                          <span class="caret"></span>
+                      </span>
+                              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                  <li><a href="#"><span class="glyphicon glyphicon-screenshot" aria-hidden="true"></span>前台首页</a></li>
+                                  <li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>个人主页</a></li>
+                                  <li><a href="#"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span>个人设置</a></li>
+                                  <li><a href="#"><span class="glyphicon glyphicon-credit-card" aria-hidden="true"></span>账户中心</a></li>
+                                  <li><a href="#"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span>个人收藏</a></li>
+                              </ul>
+
+                          </div>
+                      </li>
+                  </ul>
+                  <a href="#" class=" nav navbar-nav navbar-link navbar-text navbar-right"><span class="glyphicon glyphicon-off" aria-hidden="true"></span>退出</a>
+                  <a href="#" class=" nav navbar-nav navbar-link navbar-text navbar-right">关注二维码</a>
+              </div>
+          </div>
+      </div>
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="alert alert-danger" role="alert">
+                          <h3>网址程序有漏洞，请修复！</h3>
+                          <p>当前版本程序(v1.22)存在严重安全问题，容易造成攻击，请即刻修复！</p>
+                          <p><a href="#" class="btn btn-danger" role="button">立即处理</a>
+                              <a href="#" class="btn btn-default" role="button">稍后处理</a>
+                          </p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+           <div class="container">
+               <div class="row">
+                           <div class="col-md-6">
+                               <div class="panel panel-default">
+                                   <div class="panel-heading">网站数据统计</div>
+                                   <div class="panel-body">
+                                       <table class="table table-striped table-hover ">
+                                           <thead>
+                                           <tr>
+                                               <td>统计项目</td>
+                                               <td>今日</td>
+                                               <td>昨日</td>
+                                           </tr>
+                                           </thead>
+                                           <tbody>
+                                           <tr>
+                                               <td>注册会员</td>
+                                               <td>200</td>
+                                               <td>400</td>
+                                           </tr>
+                                           <tr>
+                                               <td>登录会员</td>
+                                               <td>4100</td>
+                                               <td>5112</td>
+                                           </tr>
+                                           <tr>
+                                               <td>今日发帖</td>
+                                               <td>1540</td>
+                                               <td>4511</td>
+                                           </tr>
+                                           <tr>
+                                               <td>转载次数</td>
+                                               <td>150</td>
+                                               <td>110</td>
+                                           </tr>
+                                           </tbody>
+                                       </table>
+                                   </div>
+                               </div>
+                           </div>
+                   <div class="col-md-6">
+                       <div class="panel panel-default">
+                           <!-- Default panel contents -->
+                           <div class="panel-heading">网站热帖</div>
+                           <!-- List group -->
+                           <ul class="list-group">
+                               <li class="list-group-item"><a href="#"><span class="glyphicon glyphicon-list-alt" aria-hidden="true">码教授职业教育，效果和就业为王<p class=" navbar-right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2019/4/8</p></span></a></li>
+                               <li class="list-group-item"><a href="#"><span class="glyphicon glyphicon-font" aria-hidden="true">码教授职业教育，效果和就业为王<p class=" navbar-right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2019/4/8</p></span></a></li>
+                               <li class="list-group-item"><a href="#"><span class="glyphicon glyphicon-bold" aria-hidden="true">码教授职业教育，效果和就业为王<p class=" navbar-right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2019/4/8</p></span></a></li>
+                               <li class="list-group-item"><a href="#"><span class="glyphicon glyphicon-italic" aria-hidden="true">码教授职业教育，效果和就业为王<p class=" navbar-right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2019/4/8</p></span></a></li>
+                               <li class="list-group-item"><a href="#"><span class="glyphicon glyphicon-facetime-video" aria-hidden="true">码教授职业教育，效果和就业为王<p class=" navbar-right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2019/4/8</p></span></a></li>
+                               <li class="list-group-item"><a href="#"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">码教授职业教育，效果和就业为王<p class=" navbar-right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2019/4/8</p></span></a></li>
+                           </ul>
+                       </div>
+                   </div>
+               </div>
+           </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">今日访客统计</div>
+                            <div class="panel-body">
+                               <div id="_echarts" style="width: 200px; height:270px"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">服务器状态</div>
+                            <div class="panel-body">
+                                <p>内存使用率：40%</p>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                                        <span class="sr-only">40% Complete (success)</span>
+                                    </div>
+                                </div>
+                                <p>数据使用率：20%</p>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                                        <span class="sr-only">20% Complete (success)</span>
+                                    </div>
+                                </div>
+                                <p>磁盘使用率：60%</p>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                        <span class="sr-only">60% Complete (success)</span>
+                                    </div>
+                                </div>
+                                <p>CPU使用率：80%</p>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                        <span class="sr-only">80% Complete (success)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           <div class="container">
+               <div class="row">
+                   <div class="col-md-12">
+                       <div class="panel panel-default">
+                           <div class="panel-heading">团队留言板</div>
+                           <div class="panel-body">
+                               <div class="row">
+                                   <div class="col-md-7">
+                               <div class="well well-lg">
+                                   <div class="media">
+                                       <div class="media-left media-middle">
+                                           <a href="#">
+                                               <img class="media-object img-circle" src="image/5.png" alt="..." style="width: 60px">
+                                           </a>
+                                       </div>
+                                       <div class="media-body">
+                                           <h4 class="media-heading">卓大哥</h4>
+                                           <p>技术大哥，今晚请把网站程序升级一下，现在的系统有漏洞，安全起见！</p>
+                                       </div>
+                                   </div>
+                               </div>
+                               <div class="well well-lg">
+                                   <!-- 右对齐 -->
+                                   <div class="media">
+                                       <div class="media-body text-right">
+                                           <h4 class="media-heading">技术大哥</h4>
+                                           <p>收到，今日凌晨2点准时升级！</p>
+                                       </div>
+                                       <div class="media-right">
+                                           <img src="image/6.png" class="media-object" style="width:60px">
+                                       </div>
+                                   </div>
+                               </div>
+                               <div class="well well-lg">
+                                   <!-- 右对齐 -->
+                                   <div class="media">
+                                       <div class="media-body text-right">
+                                           <h4 class="media-heading">技术大哥</h4>
+                                           <p>你先在站点发布一下通知哈！</p>
+                                       </div>
+                                       <div class="media-right">
+                                           <img src="image/6.png" class="media-object" style="width:60px">
+                                       </div>
+                                   </div>
+                               </div>
+                               <div class="well well-lg">
+                                   <div class="media">
+                                       <div class="media-left media-middle">
+                                           <a href="#">
+                                               <img class="media-object img-circle" src="image/5.png" alt="..." style="width: 60px">
+                                           </a>
+                                       </div>
+                                       <div class="media-body">
+                                           <h4 class="media-heading">卓大哥</h4>
+                                           <p>好勒！</p>
+                                       </div>
+                                   </div>
+                               </div>
+                                   </div>
+                                   <div class="col-md-5">
+                                       <p class=""><strong>输入留言内容</strong></p>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+
+     <script src="bootstrap/js/jquery.js"></script>
+     <script src="bootstrap/js/bootstrap.js"></script>
+     <script src="bootstrap/js/npm.js"></script>
+</body>
+</html>
